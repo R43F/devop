@@ -8,26 +8,58 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title align="center">Quadro de Horário!</title>
   </head>
   <body>
     <div class='container'>
+        <h1 class="titulo">Quadro de Horário</h1>
+
         <table class="tabela">
             <tr>
                 <th> </th>
-                <th class="titulo" colspan="3">Daniel de Almeida e Uzêda</th>
-                <th class="titulo" colspan="2">1802107    </th>
+                <th class="titulo-tab" colspan="3">Daniel de Almeida e Uzêda</th>
+                <th class="titulo-tab" colspan="2">1802107    </th>
             </tr>
             <tr>
-                <th class="cont">Horario</th> 
-                <th class="cont">Seg</th>
-                <th class="cont">Ter</th>
-                <th class="cont">Qua</th>
-                <th class="cont">Qui</th>
-                <th class="cont">Sex</th>
-
-
+                <th class="cont1">Horario</th> 
+                <th class="cont1">Seg</th>
+                <th class="cont1">Ter</th>
+                <th class="cont1">Qua</th>
+                <th class="cont1">Qui</th>
+                <th class="cont1">Sex</th>
             </tr>
+            <tr>
+                <td class="cont2">19:00 - 19:50</td>
+                <td class="cont2">SQL</td>
+                <td class="cont2">Eng Software</td>
+                <td class="cont2">Web</td>
+                <td class="cont2">Ling II</td>
+                <td class="cont2">DevOps</td>
+            </tr>
+            <tr>
+                <td class="cont2">19:50 - 20:40</td>
+                <td class="cont2">SQL</td>
+                <td class="cont2">Eng Software</td>
+                <td class="cont2">Web</td>
+                <td class="cont2">Ling II</td>
+                <td class="cont2">DevOps</td>
+            </tr>
+            <tr>
+                <td class="cont2">20:40 - 21:50</td>
+                <td class="cont2">SQL</td>
+                <td class="cont2">Eng Software</td>
+                <td class="cont2">Web</td>
+                <td class="cont2">Ling II</td>
+                <td class="cont2">DevOps</td>
+            </tr>
+            <tr>
+                <td class="cont2">21:50 - 22:40</td>
+                <td class="cont2">SQL</td>
+                <td class="cont2">Eng Software</td>
+                <td class="cont2">Web</td>
+                <td class="cont2">Ling II</td>
+                <td class="cont2">DevOps</td>
+                </tr>
         </table>
     </div>
 
@@ -41,17 +73,32 @@
     <style>
         .tabela{
             margin-top: 30px;
+            color: #D9D0DE;
+            background-color: #96939B;
+            margin-left: 15%;
         }
-        .titulo {
+        .titulo-tab{
             border: 1px solid black;
             padding: 10px;
             text-align: center;
         }
-        .cont{
+        .cont1{
             border: 1px solid black;
-            width: 90px;
+            width: 130px;
             text-align: center;
-
+        }
+        .cont2{
+            border: 1px solid black;
+            width: 130px;
+            text-align: center;
+        }
+        body{
+            background-color: #493657;
+        }
+        .titulo{
+            color: #2B2D42;
+            margin-left: 35%;
+            margin-top: 30px;
         }
     </style>
 </html>
